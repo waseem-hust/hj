@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+		 xmlns:dc="http://purl.org/dc/elements/1.1/"
+		 xmlns:foaf="http://xmlns.com/foaf/0.1/"
+		 xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+         xmlns:myrdfs="http://http://wasshadi.freevar.com/wasrdfs.rdf">
+		 
+		 
+	<rdf:Description rdf:about="http://www.gsf-sport.com/">
+		<rdf:type rdf:resource="myrdfs:FootballSport"/>
+		<myrdfs:sportName>Fottball</myrdfs:sportName>
+		<myrdfs:country rdf:resource="http://en.wikipedia.org/wiki/Syria"/>
+		<myrdfs:president>
+			<rdf:Description rdf:about="http://www.gsf-sport.com/?p=28">
+				<foaf:name>Mwaffak Jomaa</foaf:name>
+				<foaf:mbox rdf:resource="mailto:jomaa@gsf-sport.com"/>
+				<foaf:img rdf:resource="http://www.gsf-sport.com/wp-content/uploads/2013/06/moofak-jomaa.jpg"/>
+				<foaf:homepage rdf:resource="http://www.gsf-sport.com/?cat=8956" />
+				<myrdfs:sm_phone>+963-11-12341234</myrdfs:sm_phone>
+				<myrdfs:sm_gender rdf:resource="rdfs:Male"/>
+				<myrdfs:sm_cv rdf:resource="Link of CV"/>
+			</rdf:Description>
+		</myrdfs:president>
+		
+		<rdfs:homePage rdf:resource="http://www.gsf-sport.com/"/>
+		
+		<myrdfs:specificSport rdf:resource="https://en.wikipedia.org/wiki/Khalid_ibn_al-Walid_Stadium"/>
+		 
+		<myrdfs:specificSport rdf:resource="https://en.wikipedia.org/wiki/Khalid_ibn_al-Walid_Stadium"/>
+		<myrdfs:specificSport rdf:resource="https://en.wikipedia.org/wiki/Al-Hamadaniah_Stadium"/>
+		<myrdfs:specificSport rdf:resource="https://en.wikipedia.org/wiki/Abbasiyyin_Stadium"/>	 
+	    <myrdfs:specificSport rdf:resource="https://en.wikipedia.org/wiki/Al-Assad_Stadium"/>
+		
+		
+		<myrdfs:specificSport rdf:resource="https://en.wikipedia.org/wiki/Mohamed_Al-Zeno"/>
+		<myrdfs:specificSport rdf:resource="https://en.wikipedia.org/wiki/Raja_Rafe"/>
+		<myrdfs:specificSport rdf:resource="https://en.wikipedia.org/wiki/Majed_al-Haj"/>
+		<myrdfs:specificSport rdf:resource="https://en.wikipedia.org/wiki/Omar_Al_Somah"/>
+		<myrdfs:specificSport rdf:resource="https://en.wikipedia.org/wiki/Zyad_Chaabo"/>
+		
+		
+		<myrdfs:specificSport rdf:resource="http://www.kooora.com/?team=1300"/>
+		<myrdfs:specificSport rdf:resource="http://www.kooora.com/default.aspx?team=1307"/>
+		<myrdfs:specificSport rdf:resource="http://www.kooora.com/default.aspx?team=443"/>
+		<myrdfs:specificSport rdf:resource="http://www.kooora.com/default.aspx?team=6151"/>
+		 
+		
+		 
+		
+	 
+		 
+
+		
+	</rdf:Description>
+		 
+	<rdf:Description rdf:about="http://www.kooora.com/?team=1300#">
+		<rdf:type rdf:resource="myrdfs:bestTeams"/>
+		<myrdfs:bestTeam_id>1</myrdfs:bestTeam_id>
+        <foaf:img rdf:resource="http://i.kooora.com/?i=mohand1966-foto%2ftishreen-logo-200.gif"/>
+		<myrdfs:bestTeam_phone>0991123123</myrdfs:bestTeam_phone>
+		<myrdfs:moreInfo>
+            Tishreen Sports Club is a Syrian football club based in Latakia. The club was founded in 1947.
+            The word Teshrin in Arabic means October or November. To distinguish between the two months, it is usually referred as First Teshrin for the month of October and Second Teshrin for month of November.
+        </myrdfs:moreInfo>
+		<foaf:name>Tishreen Sporting Club</foaf:name>
+		<foaf:mbox rdf:resource="mailto:info@tishreen_club.org"/>
+		
+		<foaf:homepage rdf:resource="http://www.kooora.com/?team=1300" />
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.kooora.com/default.aspx?team=1307">
+		<rdf:type rdf:resource="myrdfs:bestTeams"/>
+		<myrdfs:bestTeam_id>2</myrdfs:bestTeam_id>
+        <foaf:img rdf:resource="http://i.kooora.com/?i=mohand1966-foto%2fkarama-logo-200.gif"/>
+		<myrdfs:bestTeam_phone>0992321321</myrdfs:bestTeam_phone>
+        <myrdfs:moreInfo>
+            Al-Karamah Sports Club is a Syrian football club based in the city of Homs. Founded in 1928, it is considered to be one of Asia's oldest sporting clubs. The club has won eight Syrian League titles and eight Syrian Cup titles. It also was the first Syrian club to win both the league and cup titles in the same year. The club is based at the Khaled Ibn Al Walid Stadium.
+        </myrdfs:moreInfo>
+            <foaf:name>Al-Karameh Sporting Club</foaf:name>
+		<foaf:mbox rdf:resource="mailto:info@karameh.org"/>
+		
+		<foaf:homepage rdf:resource="http://www.kooora.com/default.aspx?team=1307" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://www.kooora.com/default.aspx?team=443">
+		<rdf:type rdf:resource="myrdfs:bestTeams"/>
+		<myrdfs:bestTeam_id>3</myrdfs:bestTeam_id>
+        <foaf:img rdf:resource="http://i.kooora.com/?i=mohand1966-foto%2farmy-logo-200.gif"/>
+		<myrdfs:bestTeam_phone>0999111111</myrdfs:bestTeam_phone>
+        <myrdfs:moreInfo>
+            Al-Jaish Sports Club is a football club based in Damascus, Syria, founded in 1947. The club plays in the Abbasiyyin Stadium. The team colors are red and white.
+        </myrdfs:moreInfo>
+            <foaf:name>Al-Jaish Sporting Club</foaf:name>
+		<foaf:mbox rdf:resource="mailto:info@alJaish.org"/>
+		
+		<foaf:homepage rdf:resource="http://www.kooora.com/default.aspx?team=443" />
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.kooora.com/default.aspx?team=6151">
+		<rdf:type rdf:resource="myrdfs:bestTeams"/>
+		<myrdfs:bestTeam_id>4</myrdfs:bestTeam_id>
+        <foaf:img rdf:resource="http://i.kooora.com/?i=mohand1966%2fitahad+logo.gif"/>
+		<myrdfs:bestTeam_phone>0933223311</myrdfs:bestTeam_phone>
+        <myrdfs:moreInfo>
+            Al-Ittihad Sports Club of Aleppo is a professional multi-sports club based in the Syrian city of Aleppo mostly known for its football team which competes in the Syrian Premier League, the top league of Syrian football. Being one of the most successful clubs in Syrian football history, Al-Ittihad won six Syrian football league titles and nine Syrian cups. In Asia, their best performance was in 2010 when they became champions of AFC Cup competition.
+            The club was founded in 1949 and received its license in 1953. They play their home games at the Aleppo International Stadium since its inauguration in 2008. The club have their own ground; Al-Ittihad Stadium with a capacity of 16,000 spectators.
+            Al-Ittihad are also known for their basketball team. In general, 20 types of sports are being practiced by the club.
+        </myrdfs:moreInfo>
+            <foaf:name>alIttihad of Aleppo</foaf:name>
+		<foaf:mbox rdf:resource="mailto:info@ittihad_aleppo.org"/>
+		
+		<foaf:homepage rdf:resource="http://www.kooora.com/default.aspx?team=6151" />
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.kooora.com/default.aspx?team=1299">
+		<rdf:type rdf:resource="myrdfs:bestTeams"/>
+		<myrdfs:bestTeam_id>5</myrdfs:bestTeam_id>
+        <foaf:img rdf:resource="http://i.kooora.com/?i=mohand1966-foto%2fhoria-logo-200.gif"/>
+		<myrdfs:bestTeam_phone>0988090909</myrdfs:bestTeam_phone>
+        <myrdfs:moreInfo>
+            Al-Horrya Sports Club is a Syrian multi-sports club. It is mostly known for its football and basketball teams. It was founded in 1928. They play their homa games at the Abbasiyyin Stadium.
+        </myrdfs:moreInfo>
+            <foaf:name>alHorrya Sporting Club (H.S.C)</foaf:name>
+		<foaf:mbox rdf:resource="mailto:info@horrya.org"/>
+		
+		<foaf:homepage rdf:resource="http://www.kooora.com/default.aspx?team=1299" />
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="https://en.wikipedia.org/wiki/Raja_Rafe">
+		<rdf:type rdf:resource="myrdfs:bestFootballPlayers"/>
+		<myrdfs:bestFootballPlayer_id>1</myrdfs:bestFootballPlayer_id>
+		<foaf:name>Raja Rafe</foaf:name>
+		<foaf:mbox rdf:resource="mailto:Raja@football.org"/>
+		<foaf:img rdf:resource="http://esyria.sy/sites/images/damascus/107608_2009_12_09_05_25_45.image1.jpg"/>
+		<foaf:homepage rdf:resource="https://en.wikipedia.org/wiki/Raja_Rafe" />
+		<myrdfs:bestbestFootballPlayer_phone>0999111222</myrdfs:bestbestFootballPlayer_phone>
+		<myrdfs:results>Raja Rafe (Arabic: رجا رافع‎‎, born 1 May 1983 in Damascus, Syria) is a Syrian footballer who plays as a striker for Al-Wahda, which competes in the Syrian Premier League and is a member of the Syria national football team</myrdfs:results>
+		<myrdfs:awards> Syrian League Top Goalscorer: 2004, 2005, 2008, 2012 2015.</myrdfs:awards>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="https://en.wikipedia.org/wiki/Mohamed_Al-Zeno">
+		<rdf:type rdf:resource="myrdfs:bestFootballPlayers"/>
+		<myrdfs:bestFootballPlayer_id>2</myrdfs:bestFootballPlayer_id>
+		<foaf:name>Mohamed Al-Zeno</foaf:name>
+		<foaf:mbox rdf:resource="mailto:Mohamed@football.org"/>
+		<foaf:img rdf:resource="http://www.psyrianp.com/ar/images/articles/zeno.jpg" />
+		<foaf:homepage rdf:resource="https://en.wikipedia.org/wiki/Mohamed_Al-Zeno" />
+		<myrdfs:bestbestFootballPlayer_phone>0999111333</myrdfs:bestbestFootballPlayer_phone>
+		<myrdfs:results>Mohamed Al-Zeno has been a regular for the Syria national football team since 2004. In the 2006 FIFA World Cup qualification, he came on as a substitute for Raja Rafe in a 2-2 draw against Bahrain on 13 October 2004 in the Abbasiyyin Stadium in Damascus.
+He was a part of the Syria national football team in the 2007 Nehru Cup in India. He scored two goals in the friendly tournament, one in a 4–1 win over Kyrgyzstan and another in a 5–1 win over Cambodia.
+He scored two goals in a 3–0 win over Afghanistan and he scored one goal in a 4–1 win over Indonesia in a 2010 FIFA World Cup qualification.[6]
+In the 2009 Nehru Cup, he scored three goals, one goal in a 2–0 victory over Kyrgyzstan in Syria's first match of the tournament, one in a [7] He also scored a goal in Syria's 4–0 win over Sri Lanka and another in a 1–0 win over Lebanon. At the end of the tournament, he was awarded with the "Top Goal Scorer" award.
+He was selected in Valeriu Tiţa's 23-men final squad for the 2011 AFC Asian Cup in Qatar.[8] In the tournament he scored one goal in a 1-2 loss against Jordan.</myrdfs:results>
+		<myrdfs:awards>Syrian League Top Goalscorer</myrdfs:awards>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="https://en.wikipedia.org/wiki/Majed_al-Haj">
+		<rdf:type rdf:resource="myrdfs:bestFootballPlayers"/>
+		<myrdfs:bestFootballPlayer_id>3</myrdfs:bestFootballPlayer_id>
+		<foaf:name>Majed al-Haj</foaf:name>
+		<foaf:mbox rdf:resource="mailto:Majed@football.org"/>
+		<foaf:img rdf:resource="http://esyria.sy/sites/images/damascus/face/085772_2009_01_20_23_31_35.image1.jpg" />
+		<foaf:homepage rdf:resource="https://en.wikipedia.org/wiki/Majed_al-Haj" />
+		<myrdfs:bestbestFootballPlayer_phone>0999111444</myrdfs:bestbestFootballPlayer_phone>
+		<myrdfs:results>Al Haj was a part of the Syrian U-19 national team that finished in Fourth place at the 2004 AFC U-19 Championship in Malaysia and he was a part of the Syrian U-20 national team at the 2005 FIFA U-20 World Cup in the Netherlands. He plays against Canada, Italy and Colombia in the group-stage of the FIFA U-20 World Cup and against Brazil in the Round of 16.[2] He scored one goal against Canada in the first match of the group-stage</myrdfs:results>
+		<myrdfs:awards>GSyrian League Top Goalscorer</myrdfs:awards>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="https://en.wikipedia.org/wiki/Omar_Al_Somah">
+		<rdf:type rdf:resource="myrdfs:bestFootballPlayers"/>
+		<myrdfs:bestFootballPlayer_id>4</myrdfs:bestFootballPlayer_id>
+		<foaf:name>Omar Somah</foaf:name>
+		<foaf:mbox rdf:resource="mailto:Omar@football.org"/>
+		<foaf:img rdf:resource="http://www.arriyadiyah.com/sites/default/files/styles/614xauto/public/2015/06/02/not_yet_assigned-55.jpg" />
+		<foaf:homepage rdf:resource="https://en.wikipedia.org/wiki/Omar_Al_Somah" />
+		<myrdfs:bestbestFootballPlayer_phone>0999111555</myrdfs:bestbestFootballPlayer_phone>
+		<myrdfs:results>Omar Al Somah (Arabic: عمر السومة‎‎; born 28 March 1989 in Deir ez-Zor) is a Syrian football player who is currently playing for Al Ahli in the Saudi Professional League.[1]
+
+Nicknamed in Syria as Al-ʿAqqid (Arabic: العكيد‎‎) which is a historical civil character in Damascus known for participating in the resistance against occupiers and for being courageous, helpful and generous, he is also called Al-ʿAqīd (Arabic: العقيد‎‎).
+
+On July 2012 he participated in three games with Nottingham Forest F.C., scoring once in a trial of month.[2] He impressed manager Sean O'Driscoll enough that the club were looking to sign him on a permanent basis but he was denied a work permit and the club wasn't able to sign him</myrdfs:results>
+		<myrdfs:awards>GSyrian League Top Goalscorer</myrdfs:awards>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="https://en.wikipedia.org/wiki/Zyad_Chaabo">
+		<rdf:type rdf:resource="myrdfs:bestFootballPlayers"/>
+		<myrdfs:bestFootballPlayer_id>5</myrdfs:bestFootballPlayer_id>
+		<foaf:name>Zyad Chaabo</foaf:name>
+		<foaf:mbox rdf:resource="mailto:Zyad@football.org"/>
+		<foaf:img rdf:resource="http://img.kooora.com/?i=mohand1966_-_2008%2ftalia%2fstriker02.jpg" />
+		<foaf:homepage rdf:resource="https://en.wikipedia.org/wiki/Zyad_Chaabo" />
+		<myrdfs:bestbestFootballPlayer_phone>0999111666</myrdfs:bestbestFootballPlayer_phone>
+		<myrdfs:results>Zyad Barakat Chaabo (also spelt Ziad Shaabo, born 1 January 1979 in Latakia, Syria) is a Syrian football player who is currently playing for Misfat Baniyas in the Syrian Premier League. He usually plays in the Striker position.</myrdfs:results>
+		<myrdfs:awards>
+    Zyad Chaabo started his career at Hutteen club in Syria, and after seven seasons moved to Syrian Premier League giants Al-Jaish.
+    He went on loan to Persepolis F.C. on 31 January 2007, on a contract which lasted until the end of the Persian Gulf Cup 2006-07 season.
+    In the Syrian League Season (2007–2008) He went on loan to Al-Karamah.
+    In the Syrian League Season (2008–2009) who is currently playing for Al-Taliya.
+
+Honour and Titles
+Club
+
+    Hutteen
+        Syrian Cup: 2000/01
+    Al-Jaish
+        Syrian Premier League: 2001/02, 2002/03
+        Syrian Cup: 2001/02, 2003/04
+        AFC Cup: 2003/04
+    Al-Karamah
+        Syrian League: 2007/08
+        Syrian Cup: 2007/08
+
+National Team
+
+    ONGC Nehru Cup: Runners-up 2007
+    West Asian Games: Runners-up 2005
+
+Individual
+
+    Top Scorer Syrian League: 2002–03 (22 goals)
+    Best Syrian Footballer: 2003
+    Top Scorer ONGC Nehru Cup: 2007
+</myrdfs:awards>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="https://en.wikipedia.org/wiki/Abbasiyyin_Stadium">
+		<rdf:type rdf:resource="myrdfs:bestStadiums"/>
+		<myrdfs:StadiumID>1</myrdfs:StadiumID>
+		<foaf:name>Abbasiyyin Stadium </foaf:name>
+		<foaf:mbox rdf:resource="mailto:Abbasiyyin@Stadium.org"/>
+		<foaf:img rdf:resource="http://esyria.sy/sites/images/damascus/places/112302_2010_02_05_10_32_27.jpg" />
+		<foaf:homepage rdf:resource="https://en.wikipedia.org/wiki/Abbasiyyin_Stadium" />
+		<myrdfs:bestStadium_phone>0999111111</myrdfs:bestStadium_phone>
+		<myrdfs:StadiumsState>2</myrdfs:StadiumsState>
+		<myrdfs:goThere> Damascus , Abbasiyyin   </myrdfs:goThere>
+        <myrdfs:StadiumsServices>The Abbasiyyin Stadium (Arabic: ملعب العباسيين‎‎) is a multi-use all-seater stadium in Damascus, Syria, currently used mostly for football matches and serves as the home venue of the Syrian national team. It is also home to Syrian Premier League clubs Al-Wahda, Al-Jaish and Al-Majd. The stadium which was built in 1976 is able to hold up to 30,000 spectators, being the 4th largest stadium in Syria. 
+		</myrdfs:StadiumsServices>
+
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="https://en.wikipedia.org/wiki/Al-Hamadaniah_Stadium">
+		<rdf:type rdf:resource="myrdfs:bestStadiums"/>
+		<myrdfs:StadiumID>2</myrdfs:StadiumID>
+		<foaf:name>Al-Hamadaniah Stadium</foaf:name>
+		<foaf:mbox rdf:resource="mailto:AlHamadaniah@Stadium.org"/>
+		<foaf:img rdf:resource="https://upload.wikimedia.org/wikipedia/commons/6/6e/Alep_inter_stadium.gif" />
+		<foaf:homepage rdf:resource="https://en.wikipedia.org/wiki/Al-Hamadaniah_Stadium" />
+		<myrdfs:bestStadium_phone>0999991111</myrdfs:bestStadium_phone>
+		<myrdfs:StadiumsState>1</myrdfs:StadiumsState>
+		<myrdfs:goThere> Aleppo , Al-Hamadaniah   </myrdfs:goThere>
+        <myrdfs:StadiumsServices>Al-Hamadaniah Stadium (Arabic: ملعب الحمدانية‎‎) is an all-seater multi-purpose stadium in Aleppo, Syria. It is mostly used for football matches and has a capacity of 15,000 spectators.Al-Hamadaniah stadium serves as a home ground for Hurriya SC and sometimes for Al-Ittihad Aleppo as well. It hosted many of Syria national football team's matches before the inauguration of Aleppo International Stadium..</myrdfs:StadiumsServices>
+
+	</rdf:Description>
+	<rdf:Description rdf:about="https://en.wikipedia.org/wiki/Khalid_ibn_al-Walid_Stadium">
+		<rdf:type rdf:resource="myrdfs:bestStadiums"/>
+		<myrdfs:StadiumID>3</myrdfs:StadiumID>
+		<foaf:name>Khalid ibn al-Walid Stadium</foaf:name>
+		<foaf:mbox rdf:resource="mailto:alWalid@Stadium.org"/>
+		<foaf:img rdf:resource="http://www.arabtravelersforum.com/imgDir/10/e35285d4c51bfc1a46457a176ee7ee2azamalek4.jpg" />
+		<foaf:homepage rdf:resource="https://en.wikipedia.org/wiki/Khalid_ibn_al-Walid_Stadium" />
+		<myrdfs:bestStadium_phone>0999888111</myrdfs:bestStadium_phone>
+		<myrdfs:StadiumsState>1</myrdfs:StadiumsState>
+		<myrdfs:goThere> Homs , Al-Hamedea   </myrdfs:goThere>
+        <myrdfs:StadiumsServices>Khalid ibn al-Walid Stadium (Arabic: ملعب خالد بن الوليد‎‎) is a multi-use stadium located in the Syrian city of Homs. It is the 3rd-largest football stadium in Syria and is mostly used for football matches. It serves as a home ground of Al-Karamah SC and Al-Wathba SC and holds around 32,000 spectators.</myrdfs:StadiumsServices>
+
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="https://en.wikipedia.org/wiki/Al-Assad_Stadium">
+		<rdf:type rdf:resource="myrdfs:bestStadiums"/>
+		<myrdfs:StadiumID>4</myrdfs:StadiumID>
+		<foaf:name>Al-Assad Stadium</foaf:name>
+		<foaf:mbox rdf:resource="mailto:alWalid@Stadium.org"/>
+		<foaf:img rdf:resource="http://static.panoramio.com/photos/original/68604298.jpg" />
+		<foaf:homepage rdf:resource="https://en.wikipedia.org/wiki/Al-Assad_Stadium" />
+		<myrdfs:bestStadium_phone>0999888111</myrdfs:bestStadium_phone>
+		<myrdfs:StadiumsState>1</myrdfs:StadiumsState>
+		<myrdfs:goThere>  Latakia  </myrdfs:goThere>
+        <myrdfs:StadiumsServices>Al-Assad Stadium (ملعب الأسد) is a multi-purpose stadium in Latakia, Syria. It is currently used mostly for football matches. The stadium has a capacity of 28,000 spectators.[1] The stadium was opened in 1978 and completely renovated in 2004. It is home to Syrian Premier League football clubs Hutteen SC and Tishreen SC.The complex includes a nearby Olympic size swimming and diving pools and a hotel.The stadium was home to the final match of the football competition at the 1987 Mediterranean Games..</myrdfs:StadiumsServices>
+
+	</rdf:Description>
+	
+
+   
+
+</rdf:RDF>
